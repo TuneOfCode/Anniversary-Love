@@ -8,7 +8,7 @@ html{
     /*height: 100%;*/
 }
 body{
-    height: auto;
+    /*height: auto;*/
     background-image: url('https://tuneofcode.github.io/Anniversary-Love/image/bgLove.jpg');
     background-repeat: no-repeat;
     background-size: cover;
