@@ -65,7 +65,7 @@ clickGift.onclick = function(){
     setTimeout(HideTitle, 2000);
     setTimeout(openMusic, 2000);
     setTimeout(showMain, 2000);
-    setTimeout(hideSlideClass, 256000);
+    setTimeout(hideSlideClass, 252000);
 }
 
 /* slide */
