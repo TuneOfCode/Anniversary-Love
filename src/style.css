@@ -104,7 +104,7 @@ p{
   @media  screen and (max-width: 600px) {
     html{
         width: 100%;
-        height: 800%;
+        height: 1000%
     }
     .fade img{
         height: 400px;
