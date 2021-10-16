@@ -20,7 +20,8 @@ var HideGift = function (){
 }
 // phát âm nhạc
 function openMusic(){
-    var audio = new Audio('https://data3.chiasenhac.com/downloads/2098/5/2097042-21ed29ac/128/Hon%20Ca%20Yeu%20-%20Nguyen%20Duc%20Phuc.mp3');
+    //var audio = new Audio('https://data3.chiasenhac.com/downloads/2098/5/2097042-21ed29ac/128/Hon%20Ca%20Yeu%20-%20Nguyen%20Duc%20Phuc.mp3');
+    var audio = new Audio('https://cdn.glitch.me/6f02aa1c-ea26-41b1-92ae-31b07546cd69%2FHon%20Ca%20Yeu%20-%20Duc%20Phuc.m4a?v=1634343011797');
     audio.play();
 }
 // hiện main
