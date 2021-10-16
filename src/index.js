@@ -46,6 +46,12 @@ function showSlideClass(){
     var slide = document.getElementsByClassName('slide')[0];
     slide.style.display = 'block';
 }
+
+// Ẩn slide khi hết nhạc 
+function hideSlideClass(){
+    var slide = document.getElementsByClassName('slide')[0];
+    slide.style.display = 'none';
+}
 /* nhấn hộp quà */
 var clickGift = document.getElementById('click-gift');
 clickGift.onclick = function(){
@@ -53,12 +59,13 @@ clickGift.onclick = function(){
     clickGift.style.display = 'none';
     setTimeout(HideGift, 2000);
     setTimeout(openFirework, 3000);
-    setTimeout(closeFirework, 200000);
+    setTimeout(closeFirework, 128000);
     setTimeout(HideHeart, 6000);
     setTimeout(showSlideClass, 6000);
     setTimeout(HideTitle, 2000);
     setTimeout(openMusic, 2000);
     setTimeout(showMain, 2000);
+    setTimeout(hideSlideClass, 256000);
 }
 
 /* slide */
